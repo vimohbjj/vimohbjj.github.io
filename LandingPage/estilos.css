@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.centrado {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.borde-blanco{
+    border: 2px solid white;
+}
+
+img{
+    width: 75%;
+    height: auto;
+    background-color: black;
+}
+
+#hero{
+    background-image: url("img/Construccion.jpg");
+    background-position: center;
+    height: 50vh;
+    color: rgb(238, 237, 237);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: #baaaec;
+}
+
+footer{
+    color: white;
+}
