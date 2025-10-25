@@ -1,11 +1,27 @@
 import React from 'react'
+import { HomeIcon, UserIcon, BriefcaseIcon } from '@heroicons/react/24/outline'
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
-export const navbar = () => {
+ const Navbar = () => {
   return (
-    <div>
-        <a href="">Example</a>
-        <a href="">example</a>
-        <a href="">example</a>
-    </div>
+    <nav className='flex justify-between items-center bg-black p-4 text-white'>
+      <div className=''>
+        <a href="">
+          <h2 className=''>Vicenzo.Dev</h2>
+        </a>
+      </div>
+      <div className='flex flex-row gap-5'>
+        <a href="">About me</a>
+        <a href="">Resume</a>
+        <a href="">Project</a>
+      </div>
+      <div className=''>
+        <a href="">Linkdin</a>
+        <a href="">Github</a>
+        <a href="">Instagram</a>
+      </div>
+    </nav>
   )
 }
+
+export default Navbar

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const profile = () => {
+ const Profile = () => {
   return (
     <article>
         <span>
@@ -20,3 +20,5 @@ export const profile = () => {
     </article>
   )
 }
+
+export default Profile

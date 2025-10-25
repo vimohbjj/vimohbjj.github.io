@@ -1,12 +1,16 @@
 import React from 'react'
-import NavBar from './componentes/navbar';
-import Profile from './componentes/profile';
+import NavBar from './navbar';
+import Profile from './profile';
 
 const Home = () => {
   return (
-    <section class="grid grid-cols-6 gap-4">
-        <NavBar></NavBar>
-        <Profile></Profile>
+    <section className="grid grid-cols-1 gap-4">
+        <div className='col-span1'>
+          <NavBar></NavBar>
+        </div>
+        <div className='col-span-1'>
+          <Profile></Profile>
+        </div>
     </section>
   )
 }
