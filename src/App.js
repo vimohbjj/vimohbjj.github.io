@@ -5,6 +5,7 @@ import Home from './components/Home';
 import store from './store/store';
 import { Provider } from 'react-redux';
 import { useState } from 'react'
+
 function App() {
   return (
     <Provider store={store}>

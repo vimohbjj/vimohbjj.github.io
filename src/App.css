@@ -1,6 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Fira Code', monospace;
+}
+
+:root{
+  --gren: #10231c;
+  --ligthGreen: #037b53;
+  --ligthDark: #161616;
+  --dark:#111111;
+  --gray: #1b2125;
+}
+
+html{
+  background-color: var(--ligthDark);
+}
+
+.border-color-gray{
+  border-color: var(--gray);
+}
+
+.bg-color-dark{
+  background-color: var(--dark);
+}
+
+.bg-color-ligth-dark{
+  background-color: var(--ligthDark);
+}
+
+.color-green{
+  color: var(--gren);
+}
+
+.color-light-green{
+  color: var(--ligthGreen);
+}
+
+.card{
+  border-style: groove;
+}
 
 .App {
   text-align: center;
