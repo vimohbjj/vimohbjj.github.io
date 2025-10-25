@@ -8,17 +8,17 @@ import perfil from '../img/perfil.jpg';
 
  const Profile = () => {
   return (
-    <article className='text-white bg-color-dark grid grid-cols-4 items-center gap-6 p-4'> 
-        <div className='col-span-6 md:col-span-1 text-center'>
-            <img className='w-72 rounded-xl' src={perfil} alt="myimage" />
-        </div>
-        <div className='col-span-6 md:col-span-3 flex flex-col gap-4 m-2'>
+    <section className='text-white bg-color-dark grid grid-cols-5 items-center gap-6 p-4'> 
+        <article className='col-span-3 md:col-span-2 text-center'>
+            <img className='w-72 rounded-xl text-center' src={perfil} alt="myimage" />
+        </article>
+        <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
             <p>
               <span className='text-red-600 pe-2'>{'<span>'}</span>  
               Hi, I'm Vicenzo!
               <span className='text-red-600 ps-2'>{'</span>'}</span>  
             </p>
-            <h2 className='text-3xl text-white'>
+            <h2 className='text-white text-md sm:text-2xl md:text-3xl'>
                 Junior
                 <span className='text-green-900 ps-2 pe-2'>
                     {'{Backend}'}
@@ -51,8 +51,8 @@ import perfil from '../img/perfil.jpg';
                 ... and more
                 </span>
             </p>
-        </div>
-    </article>
+        </article>
+    </section>
   )
 }
 
