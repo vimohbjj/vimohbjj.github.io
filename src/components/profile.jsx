@@ -8,12 +8,12 @@ import perfil from '../img/perfil.jpg';
 
  const Profile = () => {
   return (
-    <section className='text-white bg-color-dark grid grid-cols-5 items-center gap-6 p-4'> 
-        <article className='col-span-3 md:col-span-2 text-center'>
-            <img className='w-72 rounded-xl text-center' src={perfil} alt="myimage" />
+    <section className='text-white bg-color-dark grid grid-cols-5 items-center align-middle gap-6 p-4'> 
+        <article className='col-span-3 md:col-span-2 flex justify-center items-center text-center'>
+            <img className='w-52 md:w-72 rounded-xl mx-auto' src={perfil} alt="myimage" />
         </article>
         <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
-            <p>
+            <p className='text-sm sm:text-base'>
               <span className='text-red-600 pe-2'>{'<span>'}</span>  
               Hi, I'm Vicenzo!
               <span className='text-red-600 ps-2'>{'</span>'}</span>  
@@ -25,7 +25,7 @@ import perfil from '../img/perfil.jpg';
                 </span>
                 Software Developer
             </h2>
-            <p className='text-gray-400'> 
+            <p className='text-gray-400 text-sm md:text-base'> 
                 <span className='text-red-600 pe-2'>{'<p>'}</span>
                     Expertise in technologies such as 
 
@@ -40,14 +40,14 @@ import perfil from '../img/perfil.jpg';
                 <span className='text-red-600'>{'<p>'}</span>
             </p>
             <p className='flex flex-row items-center'>
-                <span className='flex flex-row text-2xl'>
+                <span className='flex flex-row text-xl sm:text-2xl'>
                     <DiReact />
                     <DiJava />
                     <DiLaravel />
                     <DiJavascript1 />
                     <DiGit />
                 </span>
-                <span className='text-gray-400'>
+                <span className='text-gray-400 text-base sm:text-md'>
                 ... and more
                 </span>
             </p>
