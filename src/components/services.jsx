@@ -9,7 +9,7 @@ import { TbSettings } from 'react-icons/tb';
 
 export const Services = () => {
   return (
-    <section className='bg-color-dark p-5 text-white flex flex-col justify-center gap-5'>
+    <section className='bg-color-dark border-2 border-color-gray p-5 text-white flex flex-col justify-center gap-5'>
         <article className='text-center'>
             <h3 className='text-green-800'>What do I offer</h3>
             <h2 className='text:lg md:text-2xl'>Personalized solutions for specific requirementx</h2>
@@ -70,10 +70,10 @@ export const Services = () => {
                 </p>
             </div>
         </article>
-        <p className='text-gray-500 text-center text-sm sm:text-base'>
+        <p className='text-gray-500 text-center text-sm'>
             Excited to take on new projects and collaborate, lets 
             talk about your ideas.
-            <a className='color-light-green' href="">Reach out</a>
+            <a className='color-light-green' href="/">Reach out</a>
         </p>
     </section>
   )

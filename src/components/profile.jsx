@@ -3,13 +3,13 @@ import { DiGit } from 'react-icons/di';
 import { DiJavascript1 } from 'react-icons/di';
 import { DiJava } from 'react-icons/di';
 import { DiReact } from 'react-icons/di';
-import { DiLaravel } from 'react-icons/di';
+import { FaLaravel } from 'react-icons/fa';
 import perfil from '../img/perfil.jpg';
 
  const Profile = () => {
   return (
-    <section className='text-white bg-color-dark grid grid-cols-5 items-center align-middle gap-6 p-4'> 
-        <article className='col-span-3 md:col-span-2 flex justify-center items-center text-center'>
+    <section className='text-white bg-color-dark border-2 border-color-gray grid grid-cols-5 items-center align-middle gap-6 p-4'> 
+        <article className='hidden md:flex col-span-3 md:col-span-2 justify-center items-center text-center'>
             <img className='w-52 md:w-72 rounded-xl mx-auto' src={perfil} alt="myimage" />
         </article>
         <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
@@ -40,14 +40,15 @@ import perfil from '../img/perfil.jpg';
                 <span className='text-red-600'>{'<p>'}</span>
             </p>
             <p className='flex flex-row items-center'>
-                <span className='flex flex-row text-xl sm:text-2xl'>
+                <span className='flex flex-row gap-2 text-xl sm:text-2xl'>
                     <DiReact />
                     <DiJava />
-                    <DiLaravel />
+                    <FaLaravel />
                     <DiJavascript1 />
                     <DiGit />
+                    
                 </span>
-                <span className='text-gray-400 text-base sm:text-md'>
+                <span className='text-gray-400 text-sm sm:text-md'>
                 ... and more
                 </span>
             </p>

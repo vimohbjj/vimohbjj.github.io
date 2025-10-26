@@ -57,8 +57,8 @@ export const Navbar = () => {
                         </div>
                     </div>
                     <div className='flex flex-row gap-5 text-lg text-white'>
-                        <a href="https://www.linkedin.com/in/vicenzo-halley-moneta-hernandez-8176992bb"><FaLinkedin /></a>
-                        <a href="https://github.com/vimohbjj"><FaGithub /></a>
+                        <a href="https://www.linkedin.com/in/vicenzo-halley-moneta-hernandez-8176992bb" className='hover:text-blue-400'><FaLinkedin /></a>
+                        <a href="https://github.com/vimohbjj" className='hover:text-blue-700'><FaGithub /></a>
                         <FaInstagram />
                     </div>
                 </div>
