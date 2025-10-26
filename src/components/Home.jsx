@@ -5,6 +5,7 @@ import Stats from './stats';
 import Services from './services';
 import Navbar from './navbar';
 import Skills from './skills';
+import Education from './education';
 import Footer from './footer';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar className=''></Navbar>
       <Profile className='col-span-1'></Profile>
       <Services className='col-span-1'></Services>
+      <Education className='col-span-1'></Education>
       <Skills className='col-span-1'></Skills>
       <Footer className='col-span-1'></Footer>
     </section>

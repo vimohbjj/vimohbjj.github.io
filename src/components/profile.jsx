@@ -18,7 +18,7 @@ import perfil from '../img/perfil.jpg';
               Hi, I'm Vicenzo!
               <span className='text-red-600 ps-2'>{'</span>'}</span>  
             </p>
-            <h2 className='text-white text-md sm:text-2xl md:text-3xl'>
+            <h2 className='text-white text-base sm:text-2xl md:text-3xl'>
                 Junior
                 <span className='text-green-900 ps-2 pe-2'>
                     {'{Backend}'}

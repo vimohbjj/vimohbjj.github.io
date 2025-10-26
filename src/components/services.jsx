@@ -12,7 +12,7 @@ export const Services = () => {
     <section className='bg-color-dark border-2 border-color-gray p-5 text-white flex flex-col justify-center gap-5'>
         <article className='text-center'>
             <h3 className='text-green-800'>What do I offer</h3>
-            <h2 className='text:lg md:text-2xl'>Personalized solutions for specific requirementx</h2>
+            <h2 className='text:lg sm:text-xl md:text-2xl'>Personalized solutions for specific requirements</h2>
         </article>
         <article className='grid grid-cols-6 gap-5'>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
