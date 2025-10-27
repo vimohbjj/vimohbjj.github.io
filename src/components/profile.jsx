@@ -13,7 +13,7 @@ import perfil from '../img/perfil.jpg';
             <img className='w-52 md:w-64 lg:w-80 rounded-xl mx-auto' src={perfil} alt="myimage" />
         </article>
         <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
-            <p className='text-sm sm:text-base flex flex-col sm:flex-row'>
+            <p className='text-sm sm:text-base flex flex-row'>
               <span className='text-red-600 pe-2'>{'<span>'}</span>  
               <span>Hi, I'm Vicenzo!</span>
               <span className='text-red-600 ps-2'>{'</span>'}</span>  
