@@ -7,6 +7,7 @@ import { FaHtml5 } from 'react-icons/fa6';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { SiMysql } from 'react-icons/si';
 import { AiOutlineDotNet } from 'react-icons/ai';
+import { BiLogoTailwindCss } from 'react-icons/bi';
 
 export const Skills = () => {
   return (
@@ -26,6 +27,7 @@ export const Skills = () => {
                 <FaGitAlt className='text-4xl sm:text-5xl text-red-600'/>
                 <FaHtml5 className='text-4xl sm:text-5xl text-orange-700'/>
                 <IoLogoJavascript className='text-4xl sm:text-5xl text-yellow-300'/>
+                <BiLogoTailwindCss className='text-4xl sm:text-5xl text-blue-500'/>
             </div>
         </article>
         <article className='col-span-4 md:col-span-2 bg-color-ligth-dark p-4 m-3 rounded-lg border-2 border-color-gray'>

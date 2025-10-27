@@ -19,36 +19,33 @@ export const Services = () => {
                 <RiComputerLine className='text-2xl' />
                 <h3 className='text-base sm:text-xl'>Web & App Development</h3>
                 <p className='text-gray-500 text-sm sm:text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus voluptates eaque quos unde quam natus, 
-                    .sequi nobis ab cupiditate reprehenderit deleniti debitis aperiam
+                    I build responsive, high-performance web applications using modern frameworks like React and Laravel. 
+                    From dynamic single-page applications to complex enterprise systems, 
+                    I create seamless user experiences with clean, maintainable code and optimized performance.
                 </p>
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
                 <TbSql className='text-2xl' />
                 <h3 className='text-base sm:text-xl'>Database Management</h3>
                 <p className='text-gray-500 text-sm sm:text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus voluptates eaque quos unde quam natus, 
-                    .sequi nobis ab cupiditate reprehenderit deleniti debitis aperiam
+                    Expert in designing and optimizing database systems with SQL and NoSQL technologies. I create efficient data models, write complex queries, 
+                    and implement caching strategies to ensure fast data retrieval and secure data storage for applications of any scale.
                 </p>
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
                 <MdApi className='text-2xl'/>
                 <h3 className='text-base sm:text-xl'>API REST Development</h3>
                 <p className='text-gray-500 text-sm sm:text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus voluptates eaque quos unde quam natus, 
-                    .sequi nobis ab cupiditate reprehenderit deleniti debitis aperiam
+                    Design and implementation of RESTful APIs with comprehensive documentation, authentication systems, and rate limiting. 
+                    I create intuitive endpoints that enable seamless integration between frontend applications and backend services.
                 </p>
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
                 <FaCode className='text-2xl'/>
                 <h3 className='text-base sm:text-xl'>Robust solutions</h3>
                 <p className='text-gray-500 text-sm sm:text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus voluptates eaque quos unde quam natus, 
-                    .sequi nobis ab cupiditate reprehenderit deleniti debitis aperiam
+                    Scalable backend systems using Laravel, Node.js, and Java.
+                    I develop solutions that handle growing user demands while maintaining performance and security.
                 </p>
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>

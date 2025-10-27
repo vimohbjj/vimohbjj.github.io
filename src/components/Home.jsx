@@ -7,6 +7,7 @@ import Navbar from './navbar';
 import Skills from './skills';
 import Education from './education';
 import Footer from './footer';
+import Projects from './projects';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar className=''></Navbar>
       <Profile className='col-span-1'></Profile>
       <Services className='col-span-1'></Services>
+      <Projects className='col-span-1'></Projects>
       <Education className='col-span-1'></Education>
       <Skills className='col-span-1'></Skills>
       <Footer className='col-span-1'></Footer>
