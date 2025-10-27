@@ -8,17 +8,17 @@ import perfil from '../img/perfil.jpg';
 
  const Profile = () => {
   return (
-    <section className='text-white bg-color-dark border-2 border-color-gray grid grid-cols-5 items-center align-middle gap-4 p-4 md:pt-12 md:pb-12'> 
+    <section className='text-white bg-color-dark border-2 border-color-gray grid grid-cols-5 items-center align-middle gap-4 p-7 md:pt-12 md:pb-12'> 
         <article className='hidden md:flex col-span-3 md:col-span-2 justify-center items-center text-center'>
             <img className='w-52 md:w-64 lg:w-80 rounded-xl mx-auto' src={perfil} alt="myimage" />
         </article>
         <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
-            <p className='text-sm sm:text-base'>
+            <p className='text-sm sm:text-base flex flex-col sm:flex-row'>
               <span className='text-red-600 pe-2'>{'<span>'}</span>  
-              Hi, I'm Vicenzo!
+              <span>Hi, I'm Vicenzo!</span>
               <span className='text-red-600 ps-2'>{'</span>'}</span>  
             </p>
-            <h2 className='text-white text-base sm:text-2xl md:text-3xl'>
+            <h2 className='text-white text-sm sm:text-2xl md:text-3xl'>
                 Junior
                 <span className='text-green-900 ps-2 pe-2'>
                     {'{Backend}'}
@@ -48,7 +48,7 @@ import perfil from '../img/perfil.jpg';
                     <DiGit />
                     
                 </span>
-                <span className='text-gray-400 text-sm sm:text-md'>
+                <span className='text-gray-400 text-sm hidden sm:block sm:text-md'>
                 ... and more
                 </span>
             </p>

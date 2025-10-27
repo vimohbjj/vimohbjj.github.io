@@ -23,8 +23,8 @@ export const Projects = () => {
     };
 
   return (
-    <section className='text-white bg-color-dark p-10 border-2 border-color-gray' >
-        <h2 className='text-center text-md sm:text-lg md:text-2xl text-green-600'>Projects</h2>
+    <section id='projects' className='text-white bg-color-dark p-10 border-2 border-color-gray' >
+        <h2 className='text-center text-md sm:text-lg md:text-2xl text-green-600 mb-3'>Projects</h2>
         <Slider {...settings} className='sm:p-8'>
             <article className='px-4 mt-4'>
                 <div className='flex flex-col xl:flex-row justify-evenly items-center gap-9'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { RiGraduationCapFill } from 'react-icons/ri';
 export const Education = () => {
   return (
-    <section className='text-white bg-color-dark flex flex-col sm:flex-row justify-evenly gap-4 border-2 border-color-gray p-9'>
+    <section id='education' className='text-white bg-color-dark flex flex-col sm:flex-row justify-evenly gap-4 border-2 border-color-gray p-9'>
         <article className='flex items-center gap-4'>
             <RiGraduationCapFill className='text-xl sm:text-2xl text-green-700'/>
             <h2 className='text-xl sm:text-2xl text-green-700'>Education</h2>

@@ -50,9 +50,9 @@ export const Navbar = () => {
                     <div className="flex flex-1 items-center justify-center sm:items-stretch">
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
-                                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About me</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Resume</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
+                                <a href="#education" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Education</a>
+                                <a href="https://drive.google.com/file/d/1iMO2nO6GiJJJMXxIoPJNOmXdofhkHAE_/view?usp=sharing" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Resume</a>
+                                <a href="#projects" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
                             </div>
                         </div>
                     </div>
@@ -66,9 +66,9 @@ export const Navbar = () => {
 
             <div className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
                 <div className="space-y-1 px-2 pt-2 pb-3">
-                    <a href="#" className="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">About me</a>
-                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Resume</a>
-                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Project</a>
+                    <a href="#education" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Education</a>
+                    <a href="https://drive.google.com/file/d/1iMO2nO6GiJJJMXxIoPJNOmXdofhkHAE_/view?usp=sharing" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Resume</a>
+                    <a href="#projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
                 </div>
             </div>
         </nav>

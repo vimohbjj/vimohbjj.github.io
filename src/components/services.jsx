@@ -50,11 +50,11 @@ export const Services = () => {
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
                 <FiShoppingCart className='text-2xl'/>
-                <h3 className='text-base sm:text-xl'>Ecommerce solutions</h3>
+                <h3 className='text-base sm:text-xl'>Online Store Solutions</h3>
                 <p className='text-gray-500 text-sm sm:text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus voluptates eaque quos unde quam natus, 
-                    .sequi nobis ab cupiditate reprehenderit deleniti debitis aperiam
+                    Turn-key ecommerce platforms designed to drive sales and growth. From product display 
+                    to secure checkout, I create seamless shopping experiences with analytics, customer 
+                    management, and mobile-optimized designs that increase conversion rates.
                 </p>
             </div>
             <div className='col-span-6 sm:col-span-3 lg:col-span-2 flex flex-col gap-2 rounded-xl border-2 border-color-gray p-3 m-2'>
@@ -70,7 +70,6 @@ export const Services = () => {
         <p className='text-gray-500 text-center text-sm'>
             Excited to take on new projects and collaborate, lets 
             talk about your ideas.
-            <a className='color-light-green' href="/">Reach out</a>
         </p>
     </section>
   )

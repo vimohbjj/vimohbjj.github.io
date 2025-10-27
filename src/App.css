@@ -17,6 +17,7 @@ body {
 
 html{
   background-color: var(--ligthDark);
+  scroll-behavior: smooth;
 }
 
 li::marker {
