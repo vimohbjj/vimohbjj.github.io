@@ -78,12 +78,12 @@ export const Projects = () => {
                 <div className='flex flex-col md:flex-row justify-evenly items-center gap-9'>
                     <div className='flex flex-col gap-6 border-2 border-color-gray rounded-lg p-4'>
                         <div className='flex flex-col gap-1'>
-                            <h3 className='text-md sm:text-lg md:text-xl lg:2xl flex flex-col sm:flex-row items-center gap-0 sm:gap-2'>
+                            <h3 className='text-md sm:text-lg md:text-xl lg:2xl flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2'>
                                 <span className='text-red-600 ps-2'>{'<h3>'}</span>
                                 <span className='m-2 sm:ms-0'>Gym Management System</span>
                                 <span className='text-red-600 ps-2'>{'</h3>'}</span>
                             </h3>
-                            <p className="text-gray-300 text-sm sm:text-base flex flex-col sm:flex-row items-center gap-0 sm:gap-2">
+                            <p className="text-gray-300 text-sm sm:text-base flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2">
                                 <span className='text-red-600 ps-2'>{'<h4>'}</span>
                                 <strong className='m-2 sm:ms-0'>Frontend Developer </strong> 
                                 <span className='text-red-600 ps-2'>{'</h4>'}</span>
