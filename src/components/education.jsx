@@ -12,7 +12,7 @@ export const Education = () => {
                 <div className='flex flex-col justify-items-start'>
                     <div className='flex'>
                         <li className='list-item flex-col gap-3'></li>
-                        <a className='text-base sm:text-md hover:text-green-600' href="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion">
+                        <a className='text-base sm:text-md hover:text-green-600' href="https://drive.google.com/file/d/1pS-CQ_-fJY8ZYJ_fdmTNzz7AtuF0y1YL/view?usp=drive_link">
                         Information of Technology Analyst: 2023-present
                         </a>
                     </div>
@@ -21,14 +21,14 @@ export const Education = () => {
                 <div className='flex flex-col justify-items-start'>
                     <div className='flex'>
                         <li className='list-item flex-col gap-3'></li>
-                        <a className='text-base sm:text-md hover:text-green-600' href="https://fi.ort.edu.uy/analista-programador?utm_source=google&utm_medium=cpc&utm_campaign=SEARCH_2407_AP_Analista-programador&utm_adgroup=AP_Analista-Programador&utm_content=AP&utm_term=analista%20programador%20ort&matchtype=b&campaignid=21463381412&adgroupid=161977188862&creativeid=715452643406&device=c&network=g&placement=&loc_physical_ms=9222317&loc_interest_ms=&gad_source=1&gad_campaignid=21463381412&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq635800gUzIg-qQtl2wHUZ96zbxPsYrjWDjkwiNqUsys3I4nghS-WZRoCD68QAvD_BwE">Programmer Analyst: 2023-present</a>
+                        <a className='text-base sm:text-md hover:text-green-600' href="https://drive.google.com/file/d/1pVzTYJw-jD6nhjfbngtK6j56tgbZGYoJ/view?usp=drive_link">Programmer Analyst: 2023-present</a>
                     </div>
                     <div className='text-gray-500 ps-6'><i>Associate's degree at University of Engineering ORT</i></div>
                 </div> 
                 <div className='flex flex-col justify-items-start'>
                     <div className='flex'>
                         <li className='list-item flex-col gap-3'></li>
-                        <a className='text-base sm:text-md hover:text-green-600' href="https://fi.ort.edu.uy/analista-programador?utm_source=google&utm_medium=cpc&utm_campaign=SEARCH_2407_AP_Analista-programador&utm_adgroup=AP_Analista-Programador&utm_content=AP&utm_term=analista%20programador%20ort&matchtype=b&campaignid=21463381412&adgroupid=161977188862&creativeid=715452643406&device=c&network=g&placement=&loc_physical_ms=9222317&loc_interest_ms=&gad_source=1&gad_campaignid=21463381412&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq635800gUzIg-qQtl2wHUZ96zbxPsYrjWDjkwiNqUsys3I4nghS-WZRoCD68QAvD_BwE">Web Developer: 2023-present</a>
+                        <a className='text-base sm:text-md hover:text-green-600' href="https://drive.google.com/file/d/1XAitRof6mxgevTNlcwwcnU0CLNQa1LHm/view?usp=drive_link">Web Developer: 2023-present</a>
                     </div>
                     <div className='text-gray-500 ps-6'><i>Intermediate degree at University of Engineering ORT</i></div>
                 </div>

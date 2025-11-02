@@ -24,6 +24,10 @@ li::marker {
   color: var(--ligthGreen);
 }
 
+.border-color-my-green{
+  background-color: #15803d;
+}
+
 .border-color-gray{
   border-color: var(--gray);
 }

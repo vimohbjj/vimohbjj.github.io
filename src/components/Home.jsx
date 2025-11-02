@@ -8,12 +8,14 @@ import Skills from './skills';
 import Education from './education';
 import Footer from './footer';
 import Projects from './projects';
+import GithubStats from './githubStats';
 
 const Home = () => {
   return (
     <section className="grid grid-cols-1 gap-4">
       <Navbar className=''></Navbar>
       <Profile className='col-span-1'></Profile>
+      <GithubStats className='col-span-1'></GithubStats>
       <Services className='col-span-1'></Services>
       <Projects className='col-span-1'></Projects>
       <Education className='col-span-1'></Education>

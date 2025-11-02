@@ -8,9 +8,9 @@ import profile from '../img/profile.jpg';
 
  const Profile = () => {
   return (
-    <section className='text-white bg-color-dark border-2 border-color-gray grid grid-cols-5 items-center align-middle gap-4 p-7 md:pt-12 md:pb-12'> 
+    <section className='text-white bg-color-dark border-2 border-color-gray grid grid-cols-5 items-center align-middle gap-4 p-4  md:pt-12 md:pb-12 h-96 md:h-screen'> 
         <article className='hidden md:flex col-span-3 md:col-span-2 justify-center items-center text-center'>
-            <img className='w-52 md:w-64 lg:w-80 rounded-xl mx-auto' src={profile} alt="myimage" />
+            <img className='w-52 md:w-64 lg:w-80 xl:w-96 rounded-xl mx-auto' src={profile} alt="myimage" />
         </article>
         <article className='col-span-5 md:col-span-3 flex flex-col gap-4 m-2'>
             <p className='text-sm sm:text-base flex flex-row'>
@@ -21,7 +21,7 @@ import profile from '../img/profile.jpg';
             <h2 className='text-white text-sm sm:text-2xl md:text-3xl'>
                 Junior
                 <span className='text-green-900 ps-2 pe-2'>
-                    {'{Backend}'}
+                    {'{Full Stack}'}
                 </span>
                 Software Developer
             </h2>
