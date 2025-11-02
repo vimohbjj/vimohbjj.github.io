@@ -12,16 +12,16 @@ import GithubStats from './githubStats';
 
 const Home = () => {
   return (
-    <section className="grid grid-cols-1 gap-4">
-      <Navbar className=''></Navbar>
-      <Profile className='col-span-1'></Profile>
-      <GithubStats className='col-span-1'></GithubStats>
-      <Services className='col-span-1'></Services>
-      <Projects className='col-span-1'></Projects>
-      <Education className='col-span-1'></Education>
-      <Skills className='col-span-1'></Skills>
-      <Footer className='col-span-1'></Footer>
-    </section>
+    <div className="grid grid-cols-1 gap-5">
+      <Navbar />
+      <Profile />
+      <GithubStats  />
+      <Services />
+      <Projects />
+      <Education />
+      <Skills />
+      <Footer />
+    </div>
   )
 }
 

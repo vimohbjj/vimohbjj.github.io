@@ -24,6 +24,18 @@ li::marker {
   color: var(--ligthGreen);
 }
 
+.animation{
+  scale: 0;
+  opacity: 0;
+  transition: 600ms ease;
+}
+
+.animation.show{
+  scale: 1;
+  opacity: 1;
+}
+
+
 .border-color-my-green{
   background-color: #15803d;
 }

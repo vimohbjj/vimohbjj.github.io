@@ -44,7 +44,7 @@ export const GithubStats = () => {
   };
 
   return (
-    <section className='text-white bg-color-dark border-2 border-color-gray flex flex-col justify-evenly h-lvh'>
+    <section className='text-white bg-color-dark border-2 border-color-gray flex flex-col justify-evenly h-lvh '>
         <h3 className='text-xl sm:text-2xl text-green-700 text-center'>
             Github stats
         </h3>
@@ -54,21 +54,19 @@ export const GithubStats = () => {
                 alt="GitHub Contributions"
             />
         </article>
-        <article className='flex flex-col md:flex-row justify-evenly items-center sm:gap-0'>
-            <div className='flex flex-col sm:flex-row justify-center items-center'>
-                <div className='flex flex-col gap-1 justify-center items-center'>
-                    <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'> {loading ? '⏳' : stats.repos}  </h3>
-                    <p>Repositories</p>
-                </div>
-                <div className='flex flex-col gap-1 justify-center items-center'>
-                    <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>{loading ? '⏳' : stats.contributions.toLocaleString()}</h3>
-                    <p>Total Contributions</p>
-                </div>
-            </div>
-            <div className='flex flex-col gap-1 justify-center items-center'>
-                <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'> {loading ? '⏳' : stats.followers}</h3>
-                <p>Followers</p>
-            </div>
+        <article className='grid grid-cols-6 justify-center items-center gap-8 sm:gap-3'>
+          <div className='col-span-6 sm:col-span-3 md:col-span-2 text-center'>
+              <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'> {loading ? '⏳' : stats.repos}  </h3>
+              <p>Repositories</p>
+          </div>
+          <div className='col-span-6 sm:col-span-3 md:col-span-2 text-center'>
+              <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>{loading ? '⏳' : stats.contributions.toLocaleString()}</h3>
+              <p>Total Contributions</p>
+          </div>
+          <div className='col-span-6 md:col-span-2 text-center'>
+            <h3 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'> {loading ? '⏳' : stats.followers}</h3>
+            <p>Followers</p>
+          </div>
         </article>
     </section>
   )
